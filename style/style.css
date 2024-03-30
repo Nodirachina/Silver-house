@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.nav-list{
+    display: flex;
+    margin-top: 20px;
+}
+
+.nav-list__link{
+    margin-left: 20px; 
+    font-size: 22px;
+    line-height: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 50ms;
+}
+
+.nav-list__link:hover{
+    color: blue;
+    background: white;
+}
+
+.header-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.main-category__paragraph{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-paragraph__left{
+    width: 65%;
+    background-color: lightgray;
+    padding: 5px;
+    text-align: center;
+}
+
+.main-left__title{
+    font-size: 20px;
+    line-height: 20px;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+
+.main-left__text{
+    font-size: 16px;
+    line-height: 16px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+.main-paragraph__right{
+    width: 30%;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.main-right__title{
+    font-size: 20px;
+    line-height: 20px;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;  
+}
+
+.main-right__text{
+    font-size: 16px;
+    line-height: 16px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+.main-right__phone{
+    padding: 80px;
+    transition: 50ms;
+}
+
+.main-right__phone:hover{
+    color: blue; 
+}
+
+.main-right__mail{
+    transition: 50ms; 
+}
+
+.main-right__mail:hover{
+    color: blue;  
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between; 
+    background-color: lightgrey;
+    margin: 20px;
+    padding: 20px ;
+}
+
+.footer-box{
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-sentence{
+    font-size: 16px;
+    line-height: 20px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 50ms;
+    
+}
+
+.footer-sentence:hover{
+    color: blue;
+}
